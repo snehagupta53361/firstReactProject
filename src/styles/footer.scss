@@ -1,0 +1,48 @@
+@import "colors";
+
+footer{
+    height: 200px;
+    width: 100%;
+    padding: 2rem;
+    background-color: $first;
+    color: $dark;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+
+    >div{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        >h1{
+            color: $third;
+            font: 700 2rem $text1;
+            text-transform: uppercase;
+        }
+        >p{
+            font: 700 1.2rem $text1;
+        }
+
+        >h5{
+            font: 700 1.5rem $text1;
+            text-transform: uppercase;
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        >div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            >a{
+                color: $dark;
+                font: 700 1rem $text1;
+            }
+            &:hover{
+                color: $third;
+            }
+        }
+    }
+}

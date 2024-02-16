@@ -1,0 +1,178 @@
+@import "colors";
+
+@media screen and (max-width: 1098px){
+    .home3{
+        >div{
+            width: 80%;
+        }
+    }
+
+    .home4{
+        >div{
+            width: 80%;
+        }
+    }
+    .contact{
+        >div{
+            width: 90%;
+            >form{
+                >div{
+                >input{
+                    width: 20rem;
+                }
+            }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 960px){
+    .home3{
+        >div{
+            width: 90%;
+        }
+    }
+    .home4{
+        >div{
+            width: 90%;
+        }
+    }
+}
+
+
+@media screen and (max-width: 855px){
+    .home3{
+        >div{
+            width: 100%;
+            padding: 0;
+            height: 150vh;
+            border-radius: 0;
+        }
+    }
+    .home4{
+        height: 120vh;
+        >div{
+            width: 100%;
+            height: 120vh;
+            border-radius: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 700px){
+    .home{
+        >main{
+            align-items: center;
+            h1{
+                font-size: 3rem;
+            }
+        }
+    }
+    .home2{
+        width: 100%;
+        height: 120vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        >img{
+            width: 100%;
+        }
+        >div{
+            width: 100%;
+        }
+    }
+    .home3{
+        height: 120vh;
+        >div{
+            padding: 200px 10px;
+        }
+    }
+    footer{
+        padding: 100px;
+        height: 50vh;
+        grid-template-columns: 1fr;
+        align-items: center;
+
+        >div{
+            align-items: center;
+        }
+    }
+
+    .contact{
+        padding: 0;
+        >div{
+            width: 100%;
+            border-radius: 0;
+
+            >h1{
+                text-align: center;
+            }
+
+            >form{
+                >div{
+                >input{
+                    width: 70%;
+                }
+            }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navBar{
+        justify-content: center;
+        h1{
+            display: none;
+        }
+        >main{
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+
+            >a{
+                margin: 0.5rem;
+            }
+        }
+    }
+    .home2{
+        padding: 200px 50px;
+        height: 120vh;
+    }
+    
+    .home3{
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .navBar{
+        >main{
+            >a{
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .home2{
+        height: 150vh;
+    }
+    .home3{
+        height: 200vh;
+        >div{
+            height: 200vh;
+        }
+    }
+
+    .home4{
+        height: 200vh;
+        >div{
+            height: 200vh;
+        }
+    }
+    footer{
+        padding: 20px;
+    }
+}
